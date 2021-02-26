@@ -1,7 +1,7 @@
 # wave.master - Página de Login animada com ReactJs
 ## Ideia de um um webapp para surfistas
 
-Dividida em dois components, SignUpBox(formulário de registro) e Prancha (svg do ícone da prancha)
+Dividida em dois components, SignUpBox (formulário de registro) e Prancha (svg do ícone da prancha)
 
 ![](finalscreen.png)
 
