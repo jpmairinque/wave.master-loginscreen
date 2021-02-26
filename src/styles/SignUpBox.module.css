@@ -1,0 +1,128 @@
+.signBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+.signForm {
+    margin-right: 9rem;
+    margin-top: 1rem;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.signForm label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.signForm input {
+    background: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    color: var(--text);
+    font-size: 1rem;
+    outline: 0;
+    border-radius: 10px;
+    margin-top: 0.05rem;
+    border: none;
+}
+
+.signBox h1 {
+    color: var(--text);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border-bottom: 2px solid var(--purple);
+}
+
+.signBox h1 span {
+
+    color: var(--purple);
+    font-size: 4rem;
+
+}
+
+.signBox strong {
+
+    color: var(--text);
+    font-size: 2rem;
+
+
+}
+
+.signBox p {
+    color: var(--text);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.signForm span {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color:var(--text);
+    font-weight: 400;
+}
+
+.signForm button {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 32px;
+    background: #6c63ff;
+    color: white;
+    font-size: 1.4rem;
+    transition: all .3s ease-in-out;
+    
+}
+
+.signForm button:hover {
+    background: #5952d4;
+}
+
+.signBox .goodjob {
+
+    font-style: normal;
+    
+    color: var(--text);
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 8rem;
+  
+}
+
+.signBox .spangood {
+    color: var(--text) ;
+    font-style: normal;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+
+.signBox .animate {
+    animation: move 500ms;
+}
+
+@keyframes move {
+    from {
+        opacity: 0;
+        transform: translateX(-35%);
+    } to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+

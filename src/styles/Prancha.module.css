@@ -1,0 +1,70 @@
+.main {
+  width: 30vw;
+  align-self: center;
+  margin-top: 5rem;
+}
+
+.main button {
+  cursor: pointer;
+  width: 50%;
+  margin-top: 5rem;
+  border: none;
+  border-radius: 32px;
+  background: var(--purple);
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.main button h1 {
+  margin: 1rem;
+}
+
+.prancha {
+    animation: movePrancha 1s;
+   
+  position: absolute;
+  left: 68.26%;
+right: 7.42%;
+top: 7.52%;
+bottom: 8.86%;
+}
+
+.pranchanovo {
+  
+  animation: movePranchaBack 2s ;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+position: absolute;
+left: 68.26%;
+right: 7.42%;
+top: 7.52%;
+bottom: 8.86%;
+}
+
+@keyframes movePrancha {
+    0%{
+        transform: translatey(-100vw);
+    }
+    100% {
+        transform: translateY(100);
+    }
+}
+
+@keyframes movePranchaBack {
+  0%{
+      transform:rotate(0deg)
+  }
+  50% {
+      transform: rotate(90deg);
+      
+  }
+  100% {
+    
+    transform: translateX(100vw)
+
+}
+
+
+}
+
